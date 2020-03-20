@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Product Menu</title>
+        <style>
+            body {
+                background-image: url('/images/bg5.jpg');
+                background-size: 100%;
+            }
+            .column {
+                float: left;
+                width: 33.33%;
+                height: 80%;
+            }
+        </style>
+    </head>
+    <body>
+        <br>
+        <br>
+        <div float="right">
+            <form method="POST", action="/customer/cart", enctype="multipart/form-data">
+              <button type="submit"> View Cart</button>
+            </form>
+          </div>
+        <div class="row">
+            <br>
+            <br>
+            <br>
+            <div class="column"> 
+                <form method="POST", action="/products/women", enctype="multipart/form-data">
+                    <center>
+                        <input type="image", src="/images/women.jpg", alt="Submit", height=500px, width=400px>
+                    </center>   
+                </form> 
+            </div>
+            <div class="column"> 
+                <form method="POST", action="/products/men", enctype="multipart/form-data">
+                    <center>
+                        <input type="image", src="/images/men.png", alt="Submit", height=500px, width=400px>
+                    </center>   
+                </form> 
+            </div>
+            <div class="column"> 
+                <form method="POST", action="/products/footwear", enctype="multipart/form-data">
+                    <center>
+                        <input type="image", src="/images/footwear.png", alt="Submit", height=500px, width=400px>
+                    </center>   
+                </form> 
+            </div>
+           
+        
+    </body>
+</html>

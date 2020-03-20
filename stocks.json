@@ -1,0 +1,53 @@
+{
+  "women": [
+    [
+      "dress",
+      "Chanel",
+      5
+    ],
+    [
+      "jeans",
+      "Gucci",
+      5
+    ],
+    [
+      "tshirt&pants",
+      "Balenciaga",
+      5
+    ]
+  ],
+  "men": [
+    [
+      "pants",
+      "Raymond",
+      5
+    ],
+    [
+      "blazer",
+      "Arrow",
+      5
+    ],
+    [
+      "Cufflinks",
+      "Arrow",
+      5
+    ]
+  ],
+  "footwear": [
+    [
+      "heels",
+      "Chanel",
+      5
+    ],
+    [
+      "boots",
+      "Gucci",
+      5
+    ],
+    [
+      "sports",
+      "Balenciaga",
+      5
+    ]
+  ]
+}
